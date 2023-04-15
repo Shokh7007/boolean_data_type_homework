@@ -8,4 +8,7 @@ def main(a,b):
         bool
     """
     # Write your code here
-    return 
+    if a==b:
+        return "true"
+    return a, b
+print(main(1, 1))
