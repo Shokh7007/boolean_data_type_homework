@@ -9,6 +9,6 @@ def main(a,b):
     """
     # Write your code here
     if a==b:
-        return "true"
-    return a, b
+        return True
+    return False
 print(main(1, 1))
